@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stopwatch</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="left">
+      <div class="watch">
+        <div class="mins">00</div>
+        <div>:</div>
+        <div class="seconds">00</div>
+        <div>:</div>
+        <div class="mills">00</div>
+      </div>
+      
+      <div class="buttons">
+        <button class="btn" onclick="run();">START</button>
+        <button class="bookmark-btn" onclick="bookmark ();">BOOKMARK</button>
+        <button class="btn" onclick="reset();">RESET</button>
+      </div>
+    </div>
+
+    <div class="right">Bookmarks will be shown here...</div>
+
+    <script src="script.js"></script>
+  </div>
+</body>
+</html>
